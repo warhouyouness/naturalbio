@@ -1,0 +1,1589 @@
+body{  
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tool{
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+	height: 130px;
+}
+.tool .fb{
+    position: absolute;
+    top:5px;
+    right:85px;
+    width: 30px;
+    
+}
+.tool .instagram{
+    position: absolute;
+    top:5px;
+    right:45px;
+    width: 30px;
+    
+}
+.tool .linkedin{
+    position: absolute;
+    top:5px;
+    right:5px;
+    width: 30px;
+    
+}
+.tool .lingue{
+    position: absolute;
+    left:5px;
+	top:5px;
+    height: 30px;
+    width:150px;
+    line-height: 30px;
+}
+.tool .logo{
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    height: 100%;
+    margin: auto;
+}
+
+.panel {
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    bottom: 0;
+	overflow:auto;
+    background-color: white;
+}
+.main{
+    position: absolute;
+    top:130px;
+    right: 0;
+    left:0;
+    bottom: 0;
+}
+.sliding{
+    position: absolute;
+    top:60px;
+    bottom: 60px;
+    left:0;
+    right: 0;  
+}
+.menu{
+    position: absolute;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1200px;
+    top:0;
+	height: 60px;
+    color:white;
+    justify-content: space-around;
+}
+.menu .bloc{
+    position: relative;
+    flex: 1 ;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1 ;
+    height: 60px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    background-color: #c3af7c;
+}
+.menu .bright{
+    margin-left:0px;
+}
+.menu .bleft{
+    margin-right:0px;
+}
+.menu img{
+    position: relative;
+    flex: 60px 0 0 ;
+    -webkit-flex: 60px 0 0;
+    -moz-flex: 60px 0 0 ;
+    -ms-flex: 60px 0 0  ;
+    -o-flex: 60px 0 0 ;
+    height: 60px;
+    margin-left:30%; 
+}
+.menu .txt{
+    position: relative;
+    flex: 1 ;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ;
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+    text-align: left;
+    line-height: 60px;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+.log{
+     flex: 60px 0 0;
+    -webkit-flex: 60px 0 0;
+    -moz-flex: 60px 0 0;
+    -ms-flex: 60px 0 0;
+    -o-flex: 60px 0 0;
+     display: flex;
+     flex-direction: column;
+    -webkit-flex-direction: column;
+     display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+     padding-top: 10px;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+}
+.log img{
+    position: relative;
+    flex: 30px 0 0;
+    -webkit-flex: 30px 0 0;
+    -moz-flex: 30px 0 0;
+    -ms-flex: 30px 0 0;
+    -o-flex: 30px 0 0;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+.logtxt{
+    flex: 1 0 0;
+    -webkit-flex: 1 0 0;
+    -moz-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    -o-flex: 1 0 0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+}
+.log3{
+    background-color: white;
+    border: 1px solid white;
+}
+.vero{
+    background-color: #c3af7c;
+    border-radius:55px;
+    
+}
+.henc{
+   border-radius:55px 0;
+    border-right: 10px solid #416E32;
+    border-left: 10px solid #416E32;
+    box-decoration-break: 
+}
+.hric{
+    border-radius:0 55px;
+    border-right: 10px solid #416E32;
+    border-left: 10px solid #416E32;
+}
+.vero:hover {
+    border-radius:55px;
+    background-color: #416E32;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;
+    color: #c3af7c;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.henc:hover {
+    
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;
+    border-radius:0 55px;
+    background-color: #416E32;
+    color: #c3af7c;
+}
+.hric:hover{
+    border-radius: 55px 0px;
+    background-color: #416E32;
+    color: #c3af7c;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;  
+}
+.sottomenu{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    position: absolute;
+    left:0;
+    right:0;
+    top:60px;
+	height: 100px;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+.sottomenu .bloc{
+    flex: 1 ;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1 ;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+}
+.sottomenu img{
+    position: relative;
+    flex: 60px 0 0;
+    height: 60px;
+    margin-left:30%;
+    border: none;
+}
+.sottomenu .mimg{
+
+    }
+.sottomenu .txt{
+    flex: 1 ;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1 ;
+    text-align: left;
+    line-height: 60px;
+    font-size: 20px;
+    margin-left: 5%;  
+}
+.navenc li.ng-hide{
+     height: 0;
+}
+.navric li.ng-hide{
+     height: 0;
+}
+.navenc ul,
+.navric ul{
+    padding: 0;
+    margin-top:0;
+    list-style-type: none;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction:column;
+    -webkit-flex: 1 ;
+    -ms-flex: 1 ;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+}
+.navenc li{
+    -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;
+    border-radius:0 55px;
+    height: 40px;
+}
+.navric li{
+    -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;
+    border-radius:55px 0;
+    padding-left: 20px;
+}
+.bordertop{
+    border-top: 1px  solid white;
+}
+.navenc li,
+.navric li{
+    flex: 1 0 0;
+    -webkit-flex: 1 0 0;
+    -moz-flex: 1 0 0; 
+    -ms-flex: 1 0 0;
+    -o-flex: 1 0 0;
+    width: 150px;
+    color: #c3af7c;
+    line-height: 35px;
+    height: 35px;
+    background-color: rgba(0,0,0,0.7);
+    border-bottom: 1px  solid white;
+    z-index: 1;
+    text-align: center;
+}
+.navenc li{
+    padding-left: 0px;
+}
+.navric li{
+    padding-left: 0px;
+}
+.navenc li:hover{
+    background-color: #416E32;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;
+    color: #c3af7c;
+    border-radius:  55px 0;
+}
+.navric li:hover{
+    background-color: #416E32;
+    border-radius: 55px;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;
+    border-radius: 0 55px;
+    color: #c3af7c;
+}
+.feet{
+    position: absolute;
+	height: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1200px;
+    color:white;
+    border: 1px solid white;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    padding: 0;
+    
+}
+.feet .b{
+    flex: 1;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1;
+    -o-flex: 1 ; 
+}
+.feet .chi{
+    line-height: 60px;
+    text-align: center;
+    border-radius: 55px 0px;
+    border-right: 10px solid #416E32;
+    border-left: 10px solid #416E32;
+    background-color: #c3af7c;
+}
+.feet .chi2{
+    border-radius: 0 55px;
+    background-color: #c3af7c;
+}
+.feet .chattone{
+    display: flex;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    border-radius: 55px 55px 0px 0px;
+    border-right: 10px solid #416E32;
+    border-left: 10px solid #416E32;
+    background-color: #c3af7c;
+}
+.feet .chattone:hover {
+    background-color: #416E32;
+    border-radius: 55px 55px 0px 55px;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;
+    color: #c3af7c;
+}
+.feet .chi:hover {
+    background-color: #416E32;
+    border-radius: 0 55px;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transition: 0.5s;
+    color: #c3af7c;
+}
+.feet .chi2:hover {
+    border-radius: 55px 0;
+    color: #c3af7c;
+}
+.feet .imghand{
+    left:0;
+    right:0;
+    top:2px;
+    margin:auto;
+    width: 42px;
+}
+.feet .contacts{
+    text-align: center
+}
+.feet .hand{
+    text-align: center;
+}
+.contact{
+    position: absolute;
+    top:0;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: white;
+    border: 3px solid #416E32;
+    border-radius:55px 0;
+}
+.contatti .gold{
+    color: #c3af7c;
+    border: none;
+}
+.contatti .grey{
+    color:#3d3d3d;
+    
+}
+.contatti .box{
+    position: relative;
+	top: 3.5em;
+    height: 180px;
+}
+.contatti .sup{
+    position: relative;
+    width: 33%;
+    float: left;
+    height: 180px;
+}
+.contatti .imgcontact{
+    position: absolute;
+    top:5px;
+	height: 60px;
+    right: 0;
+    left:0;
+	margin:auto;
+}
+.contatti .chattesto{
+    position: absolute;
+    top:70px;
+    right: 0;
+    left:0;
+	text-align: center;
+}
+.txtinfo{
+    text-align: justify;
+    padding: 5%;
+    background-color: #416E32;
+    color: beige;
+    border-radius:55px;
+    
+
+}
+h3{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid beige; 
+}
+.menuricette{
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            flex-wrap: nowrap;
+            -webkit-flex-wrap: nowrap;
+            left:0;
+            right:0;
+            top: 0;
+            height: 60px;
+            border-left: 1px solid white;
+            left: 0;
+            right: 0;
+            margin: auto;
+            max-width: 1200px;
+        }
+.menuricette .m{
+            flex: 1 ;
+            -webkit-flex: 1;
+            -moz-flex: 1; 
+            -ms-flex: 1 ;
+            -o-flex: 1 ;
+            height: 60px;
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            flex-wrap: nowrap;
+            -webkit-flex-wrap: nowrap;
+            border-radius: 0 55px;
+            color: #c3af7c;
+            padding-left: 5%;
+            background-color: #416E32;
+            border-right: 10px solid #c3af7c;
+            border-left: 10px solid #c3af7c;
+        }
+.menuricette .sfo{
+            background-color: #c3af7c;
+            border-right: 10px solid #416E32;
+            border-left: 10px solid #416E32;
+            height: 60px;
+            border-radius: 55px 0px;
+            color: white;
+        }
+.menuricette img{
+            flex: 60px 0 0;
+            -webkit-flex: 60px 0 0;
+            -moz-flex: 60px 0 0; 
+            -ms-flex: 60px 0 0;
+            -o-flex: 60px 0 0;
+            width: 60px;
+            height: 60px;
+            margin: auto;
+        }
+.menuricette .txt{
+            flex: 50% ;
+            -webkit-flex: 50%;
+            -moz-flex: 50%; 
+            -ms-flex: 50% ;
+            -o-flex: 50%;
+            text-align: left;
+            font-size: 18px;
+            line-height: 60px;
+            margin-left: 14px;
+        }
+.menuricette .m:hover {
+                color: white;
+                background-color: #c3af7c;
+                border-radius: 55px 0;
+                border-right: 10px solid #416E32;
+                border-left: 10px solid #416E32;
+                -moz-transition: 0.5s;
+                 -ms-transition: 0.5s;
+                 -o-transition: 0.5s;
+                 -webkit-transition: 0.5s;
+        }
+.ad .loaarr{
+    position: absolute;
+    top:150px;
+    right: 0;
+    left:0;
+	margin: auto;
+	height: 100px;
+	z-index:1;
+}
+.ad ul{
+    position: absolute;
+    top:60px;
+    bottom:60px;
+    left:0;
+    right:0;
+    overflow:auto;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    background-color: #e6e6e6;
+}
+.menusbarre{
+    position: absolute;
+    bottom: 20px;
+    height: 3px;
+    width: 500px;
+    left: 0.5%;
+    right: 0;
+    margin: auto;
+    
+}
+.ktop{
+    position: absolute;
+    width: 400px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    padding: 0;
+    
+}
+.k1{
+    flex: 1 ;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+    max-width: 75px;
+    border-radius: 45px 45px 45px 45px;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    margin: auto;
+}
+.k2{
+    flex: 1 ;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+    max-width: 75px;
+    margin-left: 25px;
+    border-radius: 45px 45px 45px 45px;
+    margin: auto;
+}
+.k3{
+    flex: 1 ;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+    max-width: 75px;
+    margin-left: 25px;
+    margin: auto;
+}
+.bar{
+    width: 100%;
+    max-width: 75px;
+    height: 3px;
+    bottom: 0;
+    background-color: gainsboro;
+    border-radius: 45px 45px 45px 45px;
+}
+.barT{
+    position: absolute;
+    width: 100%;
+    max-width: 75px;
+    height: 3px;
+    bottom: 0;
+	background-color: #696969;
+    border-radius: 45px 45px 45px 45px;
+}
+
+@media only screen and (max-width:900px){
+    .menu .txt{
+        font-size: 14px;
+        flex: 1 0 0;
+        -webkit-flex: 1 0 0;
+        -moz-flex: 1 0 0; 
+        -ms-flex: 1 0 0;
+        -o-flex: 1 0 0;
+        text-align: left;
+        margin-left: 5%;
+        }
+    .menu img{
+        flex: 50px 0 0;
+        -webkit-flex: 50px 0 0;
+        -moz-flex: 50px 0 0; 
+        -ms-flex: 50px 0 0;
+        -o-flex: 50px 0 0;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        }
+    .log{
+      flex: 60px 0 0;
+        -webkit-flex: 60px 0 0;
+        -moz-flex: 60px 0 0; 
+        -ms-flex: 60px 0 0;
+        -o-flex: 60px 0 0;
+     display: flex;
+     flex-direction: column;
+        -webkit-flex-direction: column;
+     display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+     
+    }
+    .log img{
+    position: relative;
+    flex: 30px 0 0;
+    -webkit-flex: 30px 0 0;
+    -moz-flex: 30px 0 0; 
+    -ms-flex: 30px 0 0;
+    -o-flex: 30px 0 0;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    }
+    .logtxt{
+        flex: 1 0 0;
+        -webkit-flex: 1 0 0;
+        -moz-flex: 1 0 0; 
+        -ms-flex: 1 0 0;
+        -o-flex: 1 0 0;
+        text-align: center;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .sottomenu .txt{
+        margin-left: 0;
+    }
+    .navenc li{
+     text-align: center;
+    }
+    .navric li{
+        
+        text-align: center;
+    }
+    .navenc li,
+    .navric li{
+        flex: 1 0 0;
+        -webkit-flex: 1 0 0;
+        -moz-flex: 1 0 0; 
+        -ms-flex: 1 0 0;
+        -o-flex: 1 0 0;
+        color: white;
+        width: 120px;
+        padding-left: 5%;
+        line-height: 35px;
+        height: 35px;
+        font-size: 14px;  
+    }
+    .menusbarre{
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        height: 3px;
+    }
+    .contact{
+         position: absolute;
+         top:0;
+         left: 0;
+         right: 0;
+        bottom: 45px;
+}
+    .contatti .gold{
+        color: #c3af7c;
+        border: none;
+        font-size: 15px
+    }
+    .contatti .grey{
+        color:#3d3d3d;
+        font-size: 18px;
+    }
+    .contatti .box{
+        position: relative;
+        top: 3.5em;
+        height: 180px;
+    }
+    .contatti .sup{
+        position: relative;
+        width: 33%;
+        float: left;
+        height: 180px;
+    }
+    .contatti .imgcontact{
+        position: absolute;
+        top:5px;
+        height: 60px;
+        right: 0;
+        left:0;
+        margin:auto;
+    }
+    .contatti .chattesto{
+        position: absolute;
+        top:70px;
+        right: 0;
+        left:0;
+        text-align: center;
+    }
+}
+@media only screen and (max-height:700px){
+    .menusbarre{
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        height: 3px;
+    }
+    .menu .txt{
+        font-size: 12px;
+    }
+    .navenc li,
+    .navric li{
+        width: 100px;
+        font-size: 12px;  
+    }
+    .contact{
+        top:0;
+        bottom: 45px;
+    }
+    .contatti .gold{
+            color: #c3af7c;
+            font-size: 20px;
+        }
+    .contatti .grey{
+            color:#3d3d3d;
+            font-size: 20px;
+        }
+    .contatti .box{
+            position: relative;
+           top:0;
+            height: 80px;
+        }
+    .contatti .sup{
+            position: relative;
+            width: 33%;
+            float: left;
+            height: 180px;
+        }
+    .contatti .imgcontact{
+            position: absolute;
+            top:5px;
+            height: 30px;
+            right: 0;
+            left:0;
+            margin:auto;
+            margin-top: 1em;
+        }
+    .contatti .chattesto{
+            position: absolute;
+            top:50px;
+            right: 0;
+            left:0;
+            text-align: center;
+            font-size: 13px; 
+        }
+     .main{
+
+        }
+}
+@media only screen and (max-width:600px) and (max-height:600px) {
+        .tool {
+            position: absolute;
+            height: 45px;
+   
+         }
+        .tool .fb{
+            position: absolute;
+            top:5px;
+            right:55px;
+            width: 15px;
+        }
+        .tool .instagram{
+            position: absolute;
+            top:5px;
+            right:35px;
+            width: 15px;
+        }
+        .tool .linkedin{
+            position: absolute;
+            top:5px;
+            right:15px;
+            width: 15px;
+        }
+        .tool select{
+            position: absolute;
+            height: 5px;
+            font-size: 5px;
+            background-color: white;
+            line-height: 5px;
+            text-align: center;
+        }
+        .tool .logo{
+            position: absolute;
+            top:0;
+            right: 0;
+            left:0;
+            bottom: 0;
+            height: 98%;
+            margin: auto;
+        }
+        .main{
+            position: absolute;
+            top:45px;
+            right: 0;
+            left:0;
+            bottom: 0;
+       
+        }
+        .sliding{
+            position: absolute;
+            top:35px;
+            bottom: 60px;
+            left:0;
+            right: 0;
+        }
+        .menu{
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            left:0;
+            right:0;
+            top:0;
+            height: 35px;
+            
+            color:white;
+            border: 1px solid white;
+            justify-content: space-between;
+        }
+        .menu .bloc{
+            flex: 1 0 0;
+            -webkit-flex: 1 0 0;
+            -moz-flex: 1 0 0; 
+            -ms-flex: 1 0 0;
+            -o-flex: 1 0 0;
+            height: 35px;
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            flex-direction: column;
+            -webkit-flex-direction: column;
+        }
+        .menu .mimg{
+            flex: 22px 0 0;
+            -webkit-flex: 22px 0 0;
+            -moz-flex: 22px 0 0; 
+            -ms-flex: 22px 0 0;
+            -o-flex: 22px 0 0;
+            width: 22px;
+            height: 22px;
+            margin:auto;
+        }
+        .menu .txt{
+            flex: 1 0 0;
+            -webkit-flex: 1 0 0;
+            -moz-flex: 1 0 0; 
+            -ms-flex: 1 0 0;
+            -o-flex: 1 0 0;
+            text-align: center;
+            line-height: 10px;
+            font-size: 9px;
+            margin-left: 5%;
+        }
+        .log{
+             flex: 35px 0 0;
+            -webkit-flex: 35px 0 0;
+            -moz-flex: 35px 0 0; 
+            -ms-flex: 35px 0 0;
+            -o-flex: 35px 0 0;
+             width: 35px;
+             
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            
+             flex-direction: column;
+                -webkit-flex-direction: column;
+             height: 35px;
+             padding-top: 5px;
+        }
+        .log img{
+            flex: 20px 0 0;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            top:0;
+            margin: auto;
+
+        }
+        .logtxt{
+            flex: 1 0 0;
+            text-align: center; 
+            font-size: 5px;
+            line-height: 10px;
+    
+
+        }
+        .sottomenu{
+            top:35px;
+        }
+        .sottomenu .bloc{
+            flex: 1 0 0;
+            height: 60px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .sottomenu img{
+            display: none;
+        }
+        .navenc li,
+        .navric li{
+            flex: 1 0 0;
+            font-size: 10px;
+            margin: auto;
+            padding-left: 0;
+            line-height: 25px;
+            height: 25px;
+            text-align: center;   
+        }
+        .menuricette{
+            display: flex;
+            flex-wrap: nowrap;
+            left:0;
+            right:0;
+            top: 0;
+            height: 35px;
+            color: white;
+            
+            
+        }
+        .menuricette .m{
+            flex: 1 0 0;
+            height: 35px;
+            border-right: 1px solid white;
+            color: #c3af7c;
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 0 25px;
+        }
+        .menuricette .sfo{
+            border-right: 1px solid white;
+            height: 35px;
+            color: white;
+        }
+        .menuricette img{
+            flex: 35px 0 0;
+            margin: auto;
+            height: 35px;
+            width: 35px;
+        }
+        .menuricette .txt{
+            flex: 1 0 0;
+            text-align: left;
+            margin-left: 13px;
+            font-size: 10px;
+            line-height: 35px;
+        }
+        .feet{
+            position: absolute;
+            height: 35px;
+            right: 0;
+            left:0;
+            bottom: 0;
+            font-size: 10px;
+            color:white;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .feet .b{
+            flex: 1 0 0;
+        }
+        .feet .chi{
+            line-height: 35px;
+            text-align: center;
+        }
+        .feet .chattone{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+        .feet .imghand{
+
+            left:0;
+            right:0;
+            top:2px;
+            margin:auto;
+            width: 24px;
+        }
+        .feet .contacts{
+            text-align: center;
+            
+        }
+        .feet .hand{
+            text-align: center;
+        }
+        .contact{
+   
+            margin-top:0;
+        }
+        .contatti{
+            text-align: center;
+            font-size: 10px;
+        
+        }
+        .contatti .gold{
+            color: #c3af7c;
+            font-size: 20px;
+        }
+        .contatti .grey{
+            color:#3d3d3d;
+            font-size: 20px;
+        }
+        .contatti .box{
+            position: relative;
+           top:0;
+            height: 80px;
+        }
+        .contatti .sup{
+            position: relative;
+            width: 33%;
+            float: left;
+            height: 180px;
+        }
+        .contatti .imgcontact{
+            position: absolute;
+            top:5px;
+            height: 30px;
+            right: 0;
+            left:0;
+            margin:auto;
+            margin-top: 1em;
+        }
+        .contatti .chattesto{
+            position: absolute;
+            top:50px;
+            right: 0;
+            left:0;
+            text-align: center;
+            font-size: 11px; 
+        }
+        .txtinfo{
+            text-align: justify;
+            padding: 15px;
+            background-color: #416E32;
+            font-size: 10px;
+            color: beige;
+}
+        .ad .loaarr{
+            position: absolute;
+            top:150px;
+            right: 0;
+            left:0;
+            margin: auto;
+            height: 100px;
+            z-index:100;
+        }
+        .ad ul{
+            position: absolute;
+            top:35px;
+            bottom:35px;
+            left:0;
+            right:0;
+            overflow:auto;
+            margin: 0;
+            padding: 0;
+            list-style:none;
+            background-color: #EEEEEE;
+        }
+        .menusbarre{
+        position: absolute;
+        bottom: -20px;
+        width: 100%;
+        height: 3px;
+    }
+        .k1{
+            flex: 1 0 0;
+            max-width: 50px;
+           
+
+        }
+        .k2{
+            flex: 1 0 0;
+            max-width: 50px;
+            margin-left: 25px;
+        }
+        .k3{
+            flex: 1 0 0;
+            max-width: 50px;
+            margin-left: 25px;
+
+        }
+        .bar{
+
+            width: 50px;
+            height: 3px;
+            bottom: 0;
+            background-color: gainsboro; 
+        }
+        .barT{
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            bottom: 0;
+            background-color: #696969;
+
+        } 
+    }
+@media only screen and (max-width:600px) and (max-height:1500px) and  (min-height:451px){
+        .menu{
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            left:0;
+            right:0;
+            top:0;
+            height: 45px;
+            color:white;
+            border: 1px solid white;
+            justify-content: space-between;
+        }
+        .menu .bloc{
+            flex: 1;
+            -webkit-flex: 1;
+            -moz-flex: 1; 
+            -ms-flex: 1 ;
+            -o-flex: 1 ;
+            height: 45px;
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            flex-direction: column;
+            -webkit-flex-direction: column;
+        }
+        .menu .txt{
+            flex: 1 ;
+            -webkit-flex: 1 ;
+            -moz-flex: 1 ; 
+            -ms-flex: 1;
+            -o-flex: 1 ;
+            text-align: center;
+            line-height: 10px;
+            font-size: 9px;
+            margin-left: 5%;
+        }
+        .menu .mimg{
+            flex: 28px 0 0;
+            -webkit-flex: 28px 0 0;
+            -moz-flex: 28px 0 0 ; 
+            -ms-flex: 28px 0 0 ;
+            -o-flex: 28px 0 0;
+            width: 28px;
+            height: 28px;
+            margin:auto;  
+        }
+        .menu .txt{
+            flex: 1 0 0;
+            -webkit-flex: 1 0 0;
+            -moz-flex: 1 0 0; 
+            -ms-flex: 1 0 0;
+            -o-flex: 1 0 0;
+            text-align: center;
+            font-size: 9px;
+            margin-left: 5%; 
+            line-height: 17px;
+            font-size: 12px;
+        }
+        .sottomenu .bloc{}
+        .sottomenu img{
+            display: none;
+        }
+        .sottomenu{
+            top:45px;
+        }
+        .navenc li,
+        .navric li{
+           
+            font-size: 12px;
+            margin: auto;
+            padding-left: 0;
+            line-height: 30px;
+            height: 30px;
+            text-align: center;
+        }
+        .log{
+             flex: 45px 0 0;
+             width: 45px;
+             height: 40px;
+             padding-top: 5px;
+        }
+        .log img{
+            flex: 24px 0 0;
+            width: 24px;
+            height: 24px;
+        }
+        .logtxt{
+
+            font-size: 8px;
+            line-height: 15px;
+        }
+        .menuricette{
+            
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            flex-wrap: nowrap;
+            -webkit-flex-wrap: nowrap;
+            left:0;
+            right:0;
+            top: 0;
+            height: 45px;
+
+            border-left: 1px solid white;
+            border-bottom: 1px solid white;
+            color: white;
+        }
+        .menuricette .m{
+            flex: 1; 
+            -webkit-flex: 1 ;
+            -moz-flex: 1 ; 
+            -ms-flex: 1 ;
+            -o-flex: 1 ;
+            height: 45px;
+          
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: -o-flex;
+            flex-wrap: nowrap;
+            -webkit-flex-wrap: nowrap;
+            border-radius: 0 25px 3px 25px;
+            color: #c3af7c;
+            justify-content: flex-start;
+            padding: 0;
+            
+        }
+        .menuricette .m:hover {
+                color: white;
+        }
+        .menuricette .sfo{
+            background-color: #c3af7c;
+            height: 45px;
+            color: white;
+        }
+        .menuricette img{
+            flex: 45px 0 45px;
+            -webkit-flex: 45px 0 0;
+            -moz-flex: 45px 0 0; 
+            -ms-flex: 45px 0 0;
+            -o-flex: 45px 0 0;
+            margin-left: 0;
+            height: 45px;
+            width: auto;
+        }
+        .menuricette .txt{
+            flex: 1;
+            -webkit-flex: 1 ;
+            -moz-flex: 1 ; 
+            -ms-flex: 1 ;
+            -o-flex: 1 ;
+            text-align: left;
+            margin-left: 2px;
+            font-size: 10px;
+            line-height: 45px;
+        }
+        .menusbarre{
+            position: absolute;
+            bottom: 0px;
+            height: 3px;
+            width: 100%;}
+        .ad ul{
+            position: absolute;
+            top:45px;
+            bottom:35px;
+            left:0;
+            right:0;
+            overflow:auto;
+            margin: 0;
+            padding: 0;
+            list-style:none;
+            background-color: #EEEEEE;
+        }
+        .feet{
+            height: 35px;
+            bottom:0;
+        }
+        .feet .b{
+            flex: 1 0 0;
+            bottom:0;
+        }
+        .feet .chi{
+            line-height: 35px;
+            text-align: center;
+        }
+        .feet .imghand{
+
+            left:0;
+            right:0;
+            top:0;
+            margin:auto;
+            width: 20px;
+        }
+        .feet .contacts{
+            text-align: center;
+            bottom: 3px;
+            height: 15px;
+            line-height: 15px;
+        }
+        .feet .hand{
+            text-align: center;
+        }
+}
+
+.s1{
+    position: absolute;
+    height: 80%;
+    right: 0;
+    left:0;
+    top:10%;
+    margin: auto;
+}
+
+.home .imgdx{
+    position: absolute;
+    top:0;
+	right: 0;
+    bottom: 0;
+	margin: auto;
+	height: 10%;
+}
+.home .imgsx{
+    position: absolute;
+    top:0;
+    left: 0;    
+    bottom: 0;
+	margin: auto;
+	height: 10%;
+}					
+.home .bartool{
+    position: absolute;
+    left: 0;  
+	right: 0;	
+    bottom: 10px;
+	height: 3px;
+}					
+.barsup{
+    position: relative;
+    width: 33%;
+    float: left;
+    height: 3px;
+}	
+.barsup .bar{
+    position: absolute;
+    top:0;
+    left: 0;    
+    bottom: 0;
+	margin: auto;
+	width: 100px;	
+	height: 3px;
+}				
+
+.ad .img{
+    position: absolute;
+    left:5px;
+	top:5px;
+    height: 80px;
+	width: 80px;
+    border: 1px solid #d1d1d1;
+}
+.ad .tit{
+    position: absolute;
+    left:120px;
+	top:15px;
+	right:5px;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+    overflow: hidden;
+    color: black;
+}
+.ad .data{
+    position: absolute;
+    left:120px;
+	top:40px;
+	right:5px;
+	color: darkseagreen;
+}
+
+.ad .con{
+    position: absolute;
+    left:5px;
+	bottom:5px;
+    color: darkgray;
+    font-size: 15px;
+}
+.ad .share2{
+    position: absolute;
+    left:63px;
+	bottom:0px;
+}
+.ad .con:hover {
+    color: darkgreen;
+}
+
+
+.ad .mop{
+    position: absolute;
+    right:8px;
+	bottom:0px;
+}
+.ad img{
+    width: 20px;
+    height: 20px;
+}
+.ad .limin{
+    position: relative;
+    margin: 5px;
+    height: 150px;
+    border: 1px solid #d1d1d1;
+    border-bottom: 3px solid #d1d1d1;
+    background-color: white;
+}
+.ad .limax{
+    position: relative;
+    margin: 5px;
+    border: 1px solid #d1d1d1;
+    border-bottom: 3px solid #d1d1d1;
+    background-color: white;
+}
+.ad .limin p{
+    position: relative;
+	height: 55px;
+	margin-top:70px;
+	margin-right:15px;
+	margin-left:100px;
+	margin-bottom:25px;
+	color: #696969;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: justify;
+}
+.ad .limax p{
+    position: relative;
+	margin-top:70px;
+	margin-right:15px;
+	margin-left:100px;
+	margin-bottom:25px;
+	color: #696969;
+	text-align: justify;
+}
+
+
+
+

@@ -1,0 +1,159 @@
+
+ .livechat{
+    position: absolute;
+    bottom:0;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 60%;
+    height: 50%;
+    border-radius: 55px 55px 0 55px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    background: rgba(65, 110, 50, .7);
+    color: white;
+}
+.lctop{
+    flex: 80%;
+    -webkit-flex: 80% ;
+    -moz-flex: 80% ; 
+    -ms-flex: 80% ;
+    -o-flex: 80% ;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-wrap: nowrap;
+}
+.lcimg{
+    flex: 1.5 0 0;  
+    align-items: baseline;
+    align-items: center;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    
+}
+.lctop img{
+    border-radius: 500px;
+    align-self: center;
+    object-fit: contain;
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+   
+}
+.lctxt{
+    flex: 1.5 ;
+    -webkit-flex: 1.5 ;
+    -moz-flex: 1.5 ; 
+    -ms-flex: 1.5 ;
+    -o-flex: 1.5 ;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    text-align: center;
+    margin: auto;  
+}
+h4{
+    flex: 3 ;
+    -webkit-flex: 3 ;
+    -moz-flex: 3 ; 
+    -ms-flex: 3 ;
+    -o-flex: 3 ;
+    color: #c3af7c;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+.presto{
+    flex: 1 ;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+    margin: auto;
+}
+.news{
+    flex: 1 ;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+    margin: auto;
+}
+.lcinput{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    flex: 1 ;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+}
+.lcemail{
+    flex: 2 ;
+    -webkit-flex: 2 ;
+    -moz-flex: 2 ; 
+    -ms-flex: 2 ;
+    -o-flex: 2 ;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.lcinvia{
+    flex: 1;
+    -webkit-flex: 1 ;
+    -moz-flex: 1 ; 
+    -ms-flex: 1 ;
+    -o-flex: 1 ;
+    margin-right: 10%;
+}
+.lcinput input[type="text"],
+.lcinput input[type="button"]{
+    box-sizing: border-box;
+    background: white;
+    color:#499dd0;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    height: 40px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
